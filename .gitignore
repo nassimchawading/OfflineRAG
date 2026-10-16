@@ -1,0 +1,20 @@
+# Documentation / notes (kept local)
+*.md
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Big local files: models, tools, installers, vector DB, logs
+models/
+tools/
+installers/
+db/
+logs/
+
+# Data: PDFs and everything generated from them
+data/
+
+# Report
+*.pdf

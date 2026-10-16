@@ -1,0 +1,18 @@
+# Streamlit settings for this project (read when the app is started from the project folder).
+
+[browser]
+# Do not send usage statistics to Streamlit (the app must stay 100% offline).
+gatherUsageStats = false
+
+[client]
+# Hide the developer menu and the "Deploy" button (this app must never be put online).
+toolbarMode = "minimal"
+# Unexpected errors: show only the error type (no traceback, no "Ask ChatGPT" link); details are in the terminal.
+showErrorDetails = "type"
+
+[server]
+# Only this laptop can open the app (not other devices on the network).
+address = "localhost"
+port = 8501
+# No "enter your email" question on first start; the launcher opens the browser itself.
+headless = true
