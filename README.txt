@@ -55,7 +55,8 @@ into tools\tessdata\  (used by src\ocr.py through PyMuPDF).
 
   .\.venv\Scripts\python.exe src\add_pdfs.py
 
-- Chat in the browser (http://localhost:8501):
+- Chat in the browser: double-click start_chatbot.bat. It starts Ollama (minimized window)
+  if needed, then the app, and opens http://localhost:8501. Or by hand, Ollama running:
 
   .\.venv\Scripts\python.exe -m streamlit run src\app.py
 
